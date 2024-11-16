@@ -1,4 +1,3 @@
-// MiniCalendar.js
 import React, { useEffect, useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
@@ -18,7 +17,6 @@ const MiniCalendar = () => {
 
   const [dates, setDates] = useState([]);
 
-  // Generate dates based on the user's input and customization
   useEffect(() => {
     const generatedDates = generateRecurringDates(
       startDate,
@@ -38,7 +36,6 @@ const MiniCalendar = () => {
     nthDay,
   ]);
 
-  // Highlight recurring dates in the calendar view
   const tileClassName = ({ date }) =>
     dates.some((d) => format(d, 'yyyy-MM-dd') === format(date, 'yyyy-MM-dd'))
       ? 'highlight'

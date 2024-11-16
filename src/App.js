@@ -2,7 +2,6 @@ import React from 'react';
 import DatePickerInput from './components/DatePickerInput';
 import RecurrenceOptions from './components/RecurrenceOptions';
 import MiniCalendar from './components/MiniCalendar';
-import RecurrenceForm from './components/Dum';
 
 const DatePicker = () => {
   return (
@@ -12,8 +11,6 @@ const DatePicker = () => {
         <DatePickerInput />
         <RecurrenceOptions />
         <MiniCalendar />
-        <br />
-        {/* <RecurrenceForm /> */}
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-// utils/generateDates.js
 import {
   addDays,
   addWeeks,
@@ -62,7 +61,7 @@ export function generateRecurringDates(
         break;
     }
 
-    if (dates.length > 100) break; // Limit dates to prevent performance issues
+    if (dates.length > 2000) break;
   }
 
   return dates;

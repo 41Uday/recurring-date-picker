@@ -1,4 +1,3 @@
-// DatePickerInput.js
 import React from 'react';
 import { format } from 'date-fns';
 import useStore from '../store/store';
