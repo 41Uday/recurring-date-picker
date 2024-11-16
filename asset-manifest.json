@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recurring-date-picker/static/css/main.7bf324df.css",
+    "main.js": "/recurring-date-picker/static/js/main.50f12165.js",
+    "static/js/453.d343cab2.chunk.js": "/recurring-date-picker/static/js/453.d343cab2.chunk.js",
+    "index.html": "/recurring-date-picker/index.html",
+    "main.7bf324df.css.map": "/recurring-date-picker/static/css/main.7bf324df.css.map",
+    "main.50f12165.js.map": "/recurring-date-picker/static/js/main.50f12165.js.map",
+    "453.d343cab2.chunk.js.map": "/recurring-date-picker/static/js/453.d343cab2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bf324df.css",
+    "static/js/main.50f12165.js"
+  ]
+}
